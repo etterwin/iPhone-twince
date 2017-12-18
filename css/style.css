@@ -248,6 +248,14 @@ ul {
   width: 70%;
   margin: auto; }
 
+.slide-text {
+  margin: 10px auto;
+  display: block;
+  padding: 10px 15px;}
+
+.slide-text:hover {
+  text-decoration: underline;}
+
 .slide-item {
   text-align: left;
   padding: 6px 0;
@@ -276,14 +284,10 @@ ul {
   border: 1px solid #555555; }
 
 .slide-btn {
-  padding: 6px 12px;
-  background: #888888;
-  border-radius: 4px;
-  transition: all 0.3s ease-in-out; }
+  color: #333333;
+  padding: 6px 12px;}
   .slide-btn:hover {
-    background: #111111;
-    color: white;
-    transition: all 0.3s ease-in-out; }
+    text-decoration: underline;}
 
 .slide-img {
   max-height: 207px; }
