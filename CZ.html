@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple</title>
+    <link rel="shortcut icon" href="assets/pictures/img/apple.png" type="image/png" />
+
+    <!-- css -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- script -->
+    <script src="js/addClass.js"></script>
+    <script src="js/sliderTest.js"></script>
+
+</head>
+<body onload="showSlide(this)">
+
+<header class="header">
+
+    <nav class="navigation">
+
+        <ul class="list">
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">
+                    <img src="assets/pictures/svg/apple.svg" class="item-icon" />
+                </a>
+            </li>
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">Mac</a>
+            </li>
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">iPad</a>
+            </li>
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">iPhone</a>
+            </li>
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">Watch</a>
+            </li>
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">TV</a>
+            </li>
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">Music</a>
+            </li>
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">Podpěra</a>
+            </li>
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">
+                    <img src="assets/pictures/svg/search.svg" class="item-icon search-icon" />
+                </a>
+            </li>
+            <li class="item">
+                <a href="http://adbomb.pro/click.php?lp=1" class="item-link">
+                    <img src="assets/pictures/svg/shop.svg" class="item-icon shop-icon" />
+                </a>
+            </li>
+        </ul>
+
+        <div class="nav-mobil">
+
+            <div  class="nav-mobil__icons">
+
+                <div class="nav-mobil-icon-box" id="submenu_icon" onclick="showSubmenu(this)"></div>
+                <img src="assets/pictures/svg/apple.svg" class="nav-mobil-icon" id="apple"/>
+                <img src="assets/pictures/svg/shop.svg" class="nav-mobil-icon--right" />
+
+                <ul class="submenu-list--none" id="submenu">
+                    <li class="submenu-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="submenu-item-link">Mac</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="submenu-item-link">iPad</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="submenu-item-link">iPhone</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="submenu-item-link">Watch</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="submenu-item-link">TV</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="submenu-item-link">Music</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="submenu-item-link">Podpěra</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="submenu-item-link">Hledat na apple.com</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<main class="main">
+
+    <div class="container">
+
+            <div class="slide--active" id="slide_1">
+
+                <h1 class="slide-caption">iPhone X</h1>
+                <h2 class="slide-caption--small">Sáhni si na budoucnost.</h2>
+                <a href="http://adbomb.pro/click.php?lp=1">
+                    <img src="assets/pictures/img/header.jpg" class="slide-img" />
+                </a>
+                <a href="http://adbomb.pro/click.php?lp=1">
+                    <img src="assets/pictures/img/header-mobil.jpg" class="slide-img--mobil" />
+                </a>
+
+            </div>
+
+            <div class="slide" id="slide_2">
+
+                <h2 class="slide-caption--medium">Velká soutěž Applu ku příležitosti vydání nového iPhone X 64 GB.
+                    Společnost vydala omezené množství speciálních kuponů. Majitelé těchto kuponů si mohou nechat
+                    vyměnit svůj telefon bez ohledu na značku a model za nový iPhone X 64 GB. Stačí jen zadat model
+                    vašeho starého telefonu, vaše telefonní číslo a emailovou adresu. Tato soutěž je propagací značky
+                    Apple. Zkuste své štěstí!</h2>
+
+            </div>
+
+            <div class="slide" id="slide_3">
+
+                <h3 class="slide-caption--small">Zvolte model svého telefonu</h3>
+
+                <ul class="slide-list">
+                    <li class="slide-item">
+                        <a class="slide-item-link" onclick="clickNext(this)">Samsung</a>
+                    </li>
+                    <li class="slide-item">
+                        <a class="slide-item-link" onclick="clickNext(this)">HTC</a>
+                    </li>
+                    <li class="slide-item">
+                        <a class="slide-item-link" onclick="clickNext(this)">Nokia</a>
+                    </li>
+                    <li class="slide-item">
+                        <a class="slide-item-link" onclick="clickNext(this)">iPhone</a>
+                    </li>
+                    <li class="slide-item">
+                        <a class="slide-item-link" onclick="clickNext(this)">LG</a>
+                    </li>
+                    <li class="slide-item">
+                        <a class="slide-item-link" onclick="clickNext(this)">Huawei</a>
+                    </li>
+                    <li class="slide-item">
+                        <a class="slide-item-link" onclick="clickNext(this)">Jiný</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="slide" id="slide_4">
+
+                <div class="field-wrapper">
+                    <label class="slide-label">Vaše jméno a příjmení</label>
+                    <input type="text" class="slide-field" placeholder="Name"/>
+                </div>
+
+                <div class="field-wrapper">
+                    <label class="slide-label">Vaše emailová adresa</label>
+                    <input type="email" class="slide-field" placeholder="Email"/>
+                </div>
+
+                <a href="http://adbomb.pro/click.php?lp=1" class="slide-btn">Odeslat</a>
+
+            </div>
+
+        </div>
+
+    <div class="container">
+
+        <div class="container-wrapper">
+
+            <h1 class="container-caption">Mít fantazii, to je dar.</h1>
+            <h2 class="container-caption--small">Nakup pod stromeček.</h2>
+            <img src="assets/pictures/img/middle.png" class="container-img" />
+            <img src="assets/pictures/img/middle-768.png" class="container-img--768" />
+            <img src="assets/pictures/img/middle-mobil.png" class="container-img--mobil" />
+
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <article class="box">
+
+            <a href="http://adbomb.pro/click.php?lp=1" class="box-link">
+
+                <h2 class="box-caption">Radujte se těm
+                    <br>who are near</h2>
+                <p class="box-text box-text-icon">See "Dance"</p>
+                <img src="assets/pictures/svg/play-circular-button.svg" class="box-icon" />
+
+            </a>
+
+        </article>
+
+        <article class="box">
+
+            <a href="http://adbomb.pro/click.php?lp=1" class="box-link">
+
+                <h2 class="box-caption">iMac Pro</h2>
+                <p class="box-text">Je tady.</p>
+
+            </a>
+
+        </article>
+
+        <article class="box">
+
+            <a href="http://adbomb.pro/click.php?lp=1" class="box-link">
+
+                <h2 class="box-caption">iPhone 8</h2>
+                <p class="box-text">Pěkně chytrý telefon.</p>
+
+            </a>
+
+        </article>
+
+        <article class="box">
+
+            <a href="http://adbomb.pro/click.php?lp=1" class="box-link">
+
+                <h2 class="box-caption">Apple Watch</h2>
+                <h3 class="box-caption--small">Series 3</h3>
+                <p class="box-text">Ve vrcholné formě.</p>
+
+            </a>
+
+        </article>
+
+        <article class="box">
+
+            <a href="http://adbomb.pro/click.php?lp=1" class="box-link">
+
+                <h2 class="box-caption">iPad Pro</h2>
+                <p class="box-text">Cokoli ti jde od ruky, teď umíš líp.</p>
+
+            </a>
+
+        </article>
+
+        <article class="box">
+
+            <a href="http://adbomb.pro/click.php?lp=1" class="box-link">
+
+                <h2 class="box-caption">Apple TV 4K</h2>
+                <p class="box-text">Nová éra 4K HDR. Právě začíná.</p>
+
+            </a>
+
+        </article>
+
+    </div>
+
+</main>
+
+<footer class="footer">
+
+    <div class="footer-wrapper">
+
+        <div class="footer__container">
+
+            <section class="footer__content">
+
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link--bold">Shop and Learn</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Mac</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">iPad</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">iPhone</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Watch</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">TV</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Music</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">iTunes</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">iPod touch</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Accessories</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Gift Cards</a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="footer__content">
+
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link--bold">Apple Store</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Find a Store</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Genius Bar</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Today at Apple</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Apple Summer Camp</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Field Trip</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Apple Store App</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Refurbished and Clearance</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Financing</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Reuse and Recycling</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Order Status</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Shopping Help</a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="footer__content">
+
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link--bold">For Education</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Apple and Education</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Shop for University</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link--bold">For Business</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Apple and Business</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Shop for Business</a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="footer__content">
+
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link--bold">Account</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Manage Your Apple ID</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Apple Store Account</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">iCloud.com</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link--bold">Apple Values</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Accessibility</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Environment</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Privacy</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Supplier Responsibility</a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="footer__content">
+
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link--bold">About Apple</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Newsroom</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Apple Leadership</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Job Opportunities</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Warranty</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Investors</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Events</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-item-link">Contact Apple</a>
+                    </li>
+                </ul>
+
+            </section>
+
+        </div>
+
+        <div class="footer__container-dropdowns">
+
+            <h3 class="footer-dropdown-caption" onclick="showMenu1(this)">Shop and Learn
+                <span class="footer-dropdown-icon" id="icon_1"></span></h3>
+            <ul class="footer-dropdown-list--none" id="submenu_1">
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Mac</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">iPad</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">iPhone</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Watch</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">TV</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Music</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">iTunes</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">iPod touch</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Accessories</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Gift Cards</a>
+                </li>
+            </ul>
+
+            <h3 class="footer-dropdown-caption" onclick="showMenu2(this)">Apple Store
+                <span class="footer-dropdown-icon" id="icon_2"></span></h3>
+            <ul class="footer-dropdown-list--none" id="submenu_2">
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Find a Store</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Genius Bar</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Today at Apple</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Apple Summer Camp</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Field Trip</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Apple Store App</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Refurbished and Clearance</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Financing</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Reuse and Recycling</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Order Status</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Shopping Help</a>
+                </li>
+            </ul>
+
+            <h3 class="footer-dropdown-caption" onclick="showMenu3(this)">For Education
+                <span class="footer-dropdown-icon" id="icon_3"></span></h3>
+            <ul class="footer-dropdown-list--none" id="submenu_3">
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Apple and Education</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Shop for University</a>
+                </li>
+            </ul>
+
+            <h3 class="footer-dropdown-caption" onclick="showMenu4(this)">For Business
+                <span class="footer-dropdown-icon" id="icon_4"></span></h3>
+            <ul class="footer-dropdown-list--none" id="submenu_4">
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Apple and Business</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Shop for Business</a>
+                </li>
+            </ul>
+
+            <h3 class="footer-dropdown-caption" onclick="showMenu5(this)">Account
+                <span class="footer-dropdown-icon" id="icon_5"></span></h3>
+            <ul class="footer-dropdown-list--none" id="submenu_5">
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Manage Your Apple ID</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Apple Store Account</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">iCloud.com</a>
+                </li>
+            </ul>
+
+            <h3 class="footer-dropdown-caption" onclick="showMenu6(this)">Apple Values
+                <span class="footer-dropdown-icon" id="icon_6"></span></h3>
+            <ul class="footer-dropdown-list--none" id="submenu_6">
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Accessibility</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Environment</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Privacy</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Supplier Responsibility</a>
+                </li>
+            </ul>
+
+            <h3 class="footer-dropdown-caption" onclick="showMenu7(this)">About Apple
+                <span class="footer-dropdown-icon" id="icon_7"></span></h3>
+            <ul class="footer-dropdown-list--none" id="submenu_7">
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Newsroom</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Apple Leadership</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Job Opportunities</a>
+                </li>
+
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Warranty</a>
+                </li>
+
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Investors</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Events</a>
+                </li>
+                <li class="footer-dropdown-item">
+                    <a href="http://adbomb.pro/click.php?lp=1" class="footer-dropdown-item-link">Contact Apple</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="footer__container">
+
+            <p class="footer-text">More ways to shop: visit an Apple Store, call 0800 048 0408 or
+                <a href="http://adbomb.pro/click.php?lp=1" class="footer-text-link">find a retailer.</a>
+            </p>
+
+        </div>
+
+        <div class="footer__container">
+
+            <div class="footer__box">
+
+                <p class="footer-box-text">© Apple Inc., 2017  Apple Inc. All rights reserved.</p>
+                <img src="assets/pictures/svg/czech-republic.svg" class="footer-box-icon" />
+                <p class="footer-box-text">UK</p>
+
+            </div>
+
+            <nav class="footer-navigation">
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-nav-item-link">Privacy Policy</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-nav-item-link">Use of Cookies</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-nav-item-link">Terms of Use</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-nav-item-link">Sales and Refunds</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-nav-item-link">Legal</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="http://adbomb.pro/click.php?lp=1" class="footer-nav-item-link">Site Map</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- script -->
+<script src="js/addClass.js"></script>
+<script src="js/sliderTest.js"></script>
+
+</body>
+</html>
