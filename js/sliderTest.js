@@ -4,7 +4,7 @@ function showSlide() {
         document.getElementById('slide_1').classList.add('slide-none');
         document.getElementById('slide_1').remove('slide--active');
         nextSlide();
-    }, 1000);
+    }, 2000);
 
 }
 

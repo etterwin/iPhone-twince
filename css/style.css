@@ -205,7 +205,7 @@ ul {
   text-align: center;
   margin: auto;
   opacity: 0;
-  animation: opacityActive 0.3s ease-in-out forwards; }
+  animation: opacityActive 0.7s ease-in-out forwards; }
 
 .slide-none {
   display: none; }
@@ -418,9 +418,7 @@ ul {
 .box:first-child {
   background: url("../assets/pictures/img/1.jpg") no-repeat 50% 50%;
   background-size: 1268px 598px; }
-  .box:first-child:hover {
-    background: url("../assets/pictures/img/back.png") no-repeat 50% 50%;
-    background-size: cover; }
+
   @media screen and (max-width: 767px) {
     .box:first-child {
       background-size: 1150px 500px; } }
@@ -428,9 +426,7 @@ ul {
 .box:nth-child(2) {
   background: #1a1a1a url("../assets/pictures/img/2.jpg") no-repeat 50% 100%;
   background-size: 450px 457px; }
-  .box:nth-child(2):hover {
-    background: url("../assets/pictures/img/back.png") no-repeat 50% 50%;
-    background-size: cover; }
+
   @media screen and (min-width: 768px) and (max-width: 1366px) {
     .box:nth-child(2) {
       background-size: 380px 392px; } }
@@ -441,9 +437,7 @@ ul {
 .box:nth-child(3) {
   background: #f9f0eb url("../assets/pictures/img/3.jpg") no-repeat 50% 100%;
   background-size: 415px 416px; }
-  .box:nth-child(3):hover {
-    background: url("../assets/pictures/img/back.png") no-repeat 50% 50%;
-    background-size: cover; }
+
   @media screen and (min-width: 768px) and (max-width: 1366px) {
     .box:nth-child(3) {
       background-size: 267px 350px; } }
@@ -462,9 +456,7 @@ ul {
 .box:nth-child(4) {
   background: #fafafa url("../assets/pictures/img/4.jpg") no-repeat 50% 60%;
   background-size: 586px 274px; }
-  .box:nth-child(4):hover {
-    background: url("../assets/pictures/img/back.png") no-repeat 50% 50%;
-    background-size: cover; }
+
   @media screen and (min-width: 768px) and (max-width: 1366px) {
     .box:nth-child(4) {
       background: #fafafa url("../assets/pictures/img/4-mini.jpg") no-repeat 50% 60%;
@@ -477,9 +469,7 @@ ul {
 .box:nth-child(5) {
   background: #fafafa url("../assets/pictures/img/5.jpg") no-repeat 50% 70%;
   background-size: 510px 146px; }
-  .box:nth-child(5):hover {
-    background: url("../assets/pictures/img/back.png") no-repeat 50% 50%;
-    background-size: cover; }
+
   @media screen and (min-width: 768px) and (max-width: 1366px) {
     .box:nth-child(5) {
       background-size: 318px 91px; } }
@@ -490,9 +480,7 @@ ul {
 .box:last-child {
   background: #000000 url("../assets/pictures/img/6.jpg") no-repeat 50% 100%;
   background-size: 793px 587px; }
-  .box:last-child:hover {
-    background: url("../assets/pictures/img/back.png") no-repeat 50% 50%;
-    background-size: cover; }
+  
   @media screen and (min-width: 768px) and (max-width: 1366px) {
     .box:last-child {
       background-size: 516px 490px; } }
